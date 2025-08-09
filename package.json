@@ -1,0 +1,46 @@
+{
+  "name": "mercor-challenge",
+  "version": "1.0.0",
+  "description": "Referral network challenge implementation",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:simple": "node test-runner.js",
+    "demo": "node demo.js",
+    "benchmark": "node benchmark.js",
+    "final-validation": "node final-validation.js",
+    "lint": "eslint . --ext .ts",
+    "fmt": "prettier --write .",
+    "start": "node dist/index.js",
+    "validate": "npm run build && npm run test:simple",
+    "full-check": "npm run build && npm run test && npm run benchmark",
+    "submit-ready": "npm run build && npm run test && npm run final-validation"
+  },
+  "keywords": ["referral", "network", "graph", "simulation"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "@types/node": "^20.6.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "eslint": "^8.49.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.3",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {},
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*.ts",
+      "!src/**/*.d.ts"
+    ],
+    "coverageDirectory": "coverage",
+    "coverageReporters": ["text", "lcov", "html"]
+  }
+}
