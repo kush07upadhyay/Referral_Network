@@ -188,8 +188,8 @@ describe('BonusOptimizer', () => {
     });
 
     test('should reject functions with invalid probability values', () => {
-      const invalidNegative = (bonus: number) => -0.1;
-      const invalidTooHigh = (bonus: number) => 1.5;
+      const invalidNegative = (_bonus: number) => -0.1;
+      const invalidTooHigh = (_bonus: number) => 1.5;
       
       expect(BonusOptimizer.validateAdoptionFunction(invalidNegative)).toBe(false);
       expect(BonusOptimizer.validateAdoptionFunction(invalidTooHigh)).toBe(false);
