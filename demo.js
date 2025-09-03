@@ -1,10 +1,10 @@
 /**
  * Complete demonstration of all referral network features
- * This script showcases all 5 parts of the Mercor Challenge implementation
+ * This script showcases all 5 parts of the My Challenge implementation
  */
 
 async function demonstrateCompleteSystem() {
-  console.log(' Mercor Challenge: Complete Referral Network Demonstration\n');
+  console.log(' Complete Referral Network Demonstration\n');
   console.log('=' .repeat(60));
   
   try {

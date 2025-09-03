@@ -1,10 +1,10 @@
 /**
- * Final validation script to ensure 100% completion of Mercor Challenge requirements
+ * Final validation script to ensure 100% completion of My Challenge requirements
  * This script verifies every requirement from Instructions.md is implemented correctly
  */
 
-async function validateMercorChallenge() {
-  console.log(' Mercor Challenge: Final Validation Report\n');
+async function validateMyChallenge() {
+  console.log(' Final Validation Report\n');
   console.log('=' .repeat(60));
   
   const results = {
@@ -199,4 +199,4 @@ async function validateMercorChallenge() {
   }
 }
 
-validateMercorChallenge();
+validateMyChallenge();

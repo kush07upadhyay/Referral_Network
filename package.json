@@ -1,5 +1,5 @@
 {
-  "name": "mercor-challenge",
+  "name": "My-challenge",
   "version": "1.0.0",
   "description": "Referral network challenge implementation",
   "main": "dist/index.js",

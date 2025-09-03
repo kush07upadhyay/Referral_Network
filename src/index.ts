@@ -1,5 +1,5 @@
 /**
- * Mercor Challenge: Referral Network
+ * My Challenge: Referral Network
  * Main entry point and exports
  */
 

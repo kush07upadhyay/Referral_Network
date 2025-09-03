@@ -1,7 +1,6 @@
-Mercor Challenge: Referral
-Network
+Referral Network
 This coding challenge is designed to assess your engineering and problem-solving skills in a context
-relevant to our work at Mercor. You will build the core logic for a referral network, progressing from
+relevant to our work at My. You will build the core logic for a referral network, progressing from
 data structure design to algorithmic analysis and simulation.
 
 The project is divided into five parts that build upon each other. Please read all instructions carefully
@@ -120,7 +119,7 @@ Repository Structure
 We expect your repository to be organized in a professional manner. The following is an example
 structure—please adapt it to the conventions of your chosen language and build system.
 
-mercor-challenge/
+My-challenge/
 ├── README.md
 ├── .gitignore
 ├── source/

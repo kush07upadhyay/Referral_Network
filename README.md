@@ -1,4 +1,4 @@
-# Mercor Challenge: Referral Network
+# My Challenge: Referral Network
 
 A comprehensive TypeScript implementation of a referral network system with graph analysis, influencer identification, network growth simulation, and bonus optimization capabilities.
 
@@ -246,7 +246,7 @@ console.log(`Minimum bonus: $${minBonus} to get 1000 hires in 30 days`);
 
 ## Submission Readiness
 
-This project is **100% complete** and ready for submission to Mercor. Key differentiators:
+This project is **100% complete** and ready for submission to My. Key differentiators:
 
 ### Technical Excellence
 - ✅ **All 5 parts implemented** with full requirement compliance

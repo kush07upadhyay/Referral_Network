@@ -15,7 +15,7 @@ Create a professional repo layout and tooling so reviewers can run tests and rea
 
 Recommended structure:
 
-mercor-challenge/
+My-challenge/
 ├── README.md
 ├── package.json
 ├── tsconfig.json
